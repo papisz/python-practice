@@ -15,7 +15,7 @@ Create an application using XKCD API: https://xkcd.com/json.html
 Endpoints
 ---------------------
 
-Your application should have these endpoints:
+Your application should have these HTTP Rest API endpoints:
  * `GET /comics/current`
     * which returns the metadata of a current comic in a form:
        ```
@@ -67,6 +67,8 @@ Your application should have these endpoints:
           }
           ]
        ```
+  
+  On success return an HTTP status code, which is proper for successful requests.
        
  Edge cases
  -----------
