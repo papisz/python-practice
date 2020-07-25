@@ -42,32 +42,30 @@ Your application should have these HTTP Rest API endpoints:
  * `GET /comics/many?comic_ids=<comic_1>&comic_ids=<comic_id_2>&...&comic_ids=<comic_id_n>`
       * which returns the metadata of comic_id_1, comic_id_2, ..., comic_id_n in a form:
        ```
-         [
+          [
             {
-                "id":<comic id_1>,
-                "description":"<description of the comic>",
-                "date":"<date of the comic publishment",
-                "in form":"YY-MM-DD>",
-                "title":"<lowercase title of the comic>",
-                "url":"<url address of the image>"
+                "id": <comic id 1>,
+                "description": <description of the comic>,
+                "date": <date of the comic publishment, in form: YY-MM-DD>,
+                "title": <lowercase title of the comic>,
+                "url": <url address of the image>,
             },
             {
-                "id":<comic id_2>,
-                "description":"<description of the comic>",
-                "date":"<date of the comic publishment",
-                "in form":"YY-MM-DD>",
-                "title":"<lowercase title of the comic>",
-                "url":"<url address of the image>"
+                "id": <comic id 2>,
+                "description": <description of the comic>,
+                "date": <date of the comic publishment, in form: YY-MM-DD>,
+                "title": <lowercase title of the comic>,
+                "url": <url address of the image>,
             },
+            ...
             {
-                "id":"<comic id_n>",
-                "description":"<description of the comic>",
-                "date":"<date of the comic publishment",
-                "in form":"YY-MM-DD>",
-                "title":"<lowercase title of the comic>",
-                "url":"<url address of the image>"
+                "id": <comic id n>,
+                "description": <description of the comic>,
+                "date": <date of the comic publishment, in form: YY-MM-DD>,
+                "title": <lowercase title of the comic>,
+                "url": <url address of the image>,
             }
-        ]
+          ]
        ```
   
   On success return an HTTP status code, which is proper for successful requests.
