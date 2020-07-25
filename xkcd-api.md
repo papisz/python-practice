@@ -44,25 +44,26 @@ Your application should have these HTTP Rest API endpoints:
        ```
         [
             {
-                "id": 1,
-                "description": "description of the comic",
-                "date": "YY-MM-DD",
-                "title": "lowercase title of the comic",
-                "url": "url address of the image"
+                "id": <comic id 1>,
+                "description": <description of the comic>,
+                "date": <YY-MM-DD>,
+                "title": <lowercase title of the comic>,
+                "url": <url address of the image>
             },
             {
-                "id": 2,
-                "description": "description of the comic",
-                "date": "YY-MM-DD",
-                "title": "lowercase title of the comic",
-                "url": "url address of the image"
+                "id": <comic id 2>,
+                "description": <description of the comic>,
+                "date": <YY-MM-DD>,
+                "title": <lowercase title of the comic>,
+                "url": <url address of the image>
             },
+            ...
             {
-                "id": 3,
-                "description": "description of the comic",
-                "date": "YY-MM-DD",
-                "title": "lowercase title of the comic",
-                "url": "url address of the image"
+                "id": <comic id n>,
+                "description": <description of the comic>,
+                "date": <YY-MM-DD>,
+                "title": <lowercase title of the comic>,
+                "url": <url address of the image>
             }
         ]
         ```
