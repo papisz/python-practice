@@ -24,7 +24,7 @@ Your application should have these HTTP Rest API endpoints:
              "description": <description of the current comic>,
              "date": <date of the comic publishment, in form: YY-MM-DD>,
              "title": <lowercase title of the comic>,
-             "url": <url address of the image>,
+             "url": <url address of the image>
           }
        ```
              
@@ -36,7 +36,7 @@ Your application should have these HTTP Rest API endpoints:
              "description": <description of the comic>,
              "date": <date of the comic publishment, in form: YY-MM-DD>,
              "title": <lowercase title of the comic>,
-             "url": <url address of the image>,
+             "url": <url address of the image>
           }
        ```
  * `GET /comics/many?comic_ids=<comic_1>&comic_ids=<comic_id_2>&...&comic_ids=<comic_id_n>`
@@ -48,14 +48,14 @@ Your application should have these HTTP Rest API endpoints:
                 "description": <description of the comic>,
                 "date": <date of the comic publishment, in form: YY-MM-DD>,
                 "title": <lowercase title of the comic>,
-                "url": <url address of the image>,
+                "url": <url address of the image>
             },
             {
                 "id": <comic id 2>,
                 "description": <description of the comic>,
                 "date": <date of the comic publishment, in form: YY-MM-DD>,
                 "title": <lowercase title of the comic>,
-                "url": <url address of the image>,
+                "url": <url address of the image>
             },
             ...
             {
@@ -63,7 +63,7 @@ Your application should have these HTTP Rest API endpoints:
                 "description": <description of the comic>,
                 "date": <date of the comic publishment, in form: YY-MM-DD>,
                 "title": <lowercase title of the comic>,
-                "url": <url address of the image>,
+                "url": <url address of the image>
             }
           ]
        ```
