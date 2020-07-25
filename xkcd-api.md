@@ -40,9 +40,9 @@ Your application should have these HTTP Rest API endpoints:
           }
        ```
  * `GET /comics/many?comic_ids=<comic_1>&comic_ids=<comic_id_2>&...&comic_ids=<comic_id_n>`
-       * which returns the metadata of comic_id_1, comic_id_2, ..., comic_id_n in a form:
+      * which returns the metadata of comic_id_1, comic_id_2, ..., comic_id_n in a form:
        ```
-                 [
+         [
             {
                 "id":<comic id_1>,
                 "description":"<description of the comic>",
